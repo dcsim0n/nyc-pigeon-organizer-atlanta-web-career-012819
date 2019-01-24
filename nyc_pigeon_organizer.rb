@@ -7,7 +7,7 @@ data.each do |top_key, mid_hashes|
     name_array.each do |name|
       binding.pry
       if !ugly_hash[name][top_key]
-        ugly_hash[name][top_key] = *mid_key
+        ugly_hash[name][top_key] = *"#{mid_key}"
       else
         ugly_hash[name][top_key] << mid_key
       end

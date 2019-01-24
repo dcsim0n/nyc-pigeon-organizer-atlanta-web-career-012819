@@ -18,6 +18,5 @@ data.each do |top_key, mid_hashes|
 end
    
   
- 
+ugly_hash
 end
-binding.pry

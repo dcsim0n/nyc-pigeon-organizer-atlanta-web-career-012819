@@ -9,7 +9,7 @@ data.each do |top_key, mid_hashes|
       if !ugly_hash[name][top_key]
         ugly_hash[name][top_key] = *"#{mid_key}"
       else
-        ugly_hash[name][top_key] << mid_key
+        ugly_hash[name][top_key] << "#{mid_key}"
       end
     end
   end
